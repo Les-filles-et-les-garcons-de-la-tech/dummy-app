@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 
-const apiRoute = process.env.API_ROUTE || "http://localhost:8080/which";
+const apiRoute = process.env.REACT_APP_API_ROUTE || "http://localhost:8080/which";
 
 function App() {
   const [agency, setAgency] = useState(null);
